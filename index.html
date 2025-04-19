@@ -9,81 +9,113 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #fafafa;
     }
     header {
-      background-color: #28a745;
+      background-color: #00796b;
       color: white;
-      padding: 1rem;
+      padding: 2rem;
       text-align: center;
     }
     nav {
       display: flex;
       justify-content: center;
-      background-color: #f1f1f1;
+      background-color: #004d40;
     }
     nav a {
-      padding: 1rem;
+      padding: 1rem 1.5rem;
       text-decoration: none;
-      color: #333;
+      color: white;
+      font-weight: bold;
     }
     nav a:hover {
-      background-color: #ddd;
+      background-color: #00695c;
+    }
+    .hero {
+      background-color: #e0f2f1;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
     }
     main {
       padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
     }
     section {
       margin-bottom: 2rem;
+      background: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     footer {
-      background-color: #28a745;
+      background-color: #00796b;
       color: white;
       text-align: center;
       padding: 1rem;
+      margin-top: 2rem;
+    }
+    .social-icons {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    .social-icons img {
+      width: 30px;
+      margin: 0 10px;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to Taniti</h1>
-    <p>Discover Paradise</p>
+    <h1>WELCOME TO TANITI</h1>
   </header>
 
   <nav>
-    <a href="#activities">Activities</a>
+    <a href="#attractions">Attractions</a>
     <a href="#lodging">Lodging</a>
-    <a href="#restaurants">Restaurants</a>
-    <a href="#transport">Transport</a>
+    <a href="#tips">Visitor Tips</a>
     <a href="#booking">Booking</a>
+    <a href="#contact">Contact</a>
   </nav>
 
+  <div class="hero">
+    <h2>Your Next Adventure Awaits</h2>
+    <p>Explore beaches, rainforests, volcanoes, and culture on Taniti.</p>
+  </div>
+
   <main>
-    <section id="activities">
-      <h2>Top Activities</h2>
-      <p>Explore rainforests, go zip-lining, relax on the beach, and more!</p>
+    <section id="attractions">
+      <h2>Attractions</h2>
+      <p>Discover snorkeling, hiking, zip-lining, and more natural and cultural adventures across Taniti.</p>
     </section>
 
     <section id="lodging">
       <h2>Lodging</h2>
-      <p>Find family-friendly, budget, and luxury hotels in Taniti City and nearby.</p>
+      <p>Choose from hostels, family-run inns, bed and breakfasts, and luxurious resorts — all government-inspected.</p>
     </section>
 
-    <section id="restaurants">
-      <h2>Restaurants</h2>
-      <p>Sample local Tanitian food, Pan-Asian cuisine, or international fare.</p>
-    </section>
-
-    <section id="transport">
-      <h2>Transportation</h2>
-      <p>Information on buses, taxis, rental cars, and airport shuttles.</p>
+    <section id="tips">
+      <h2>Visitor Tips</h2>
+      <p>Plan for holidays, understand local customs, and learn about currency exchange, safety, and transportation.</p>
     </section>
 
     <section id="booking">
-      <h2>Book Your Adventure</h2>
-      <p>Reserve your hotel and excursions now!</p>
+      <h2>Booking</h2>
+      <p>Reserve accommodations and excursions in advance for a stress-free stay.</p>
       <button onclick="alert('Booking feature coming soon!')">Book Now</button>
     </section>
   </main>
+
+  <div class="social-icons">
+    <img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png" alt="Facebook" />
+    <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram" />
+    <img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" alt="Twitter" />
+  </div>
 
   <footer>
     <p>&copy; 2025 Taniti Tourism. All rights reserved.</p>
